@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Scribbles</title>
+        <link rel="stylesheet" href="app.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha384-XX..."
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <!-------------------------------------Header-------------------->
+
+        <div id="header">
+            <div class="container top-words">
+                <nav>
+                    <a href="#header"
+                        ><img src="images/logoJPG.JPG" class="logo" alt="logo"
+                    /></a>
+                    <ul id="sideMenu" class="menu-words">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closeMenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openMenu()"></i>
+                </nav>
+            </div>
+        </div>
+        <!-- ---------------------------Home ------------------------------ -->
+        <div id="home">
+            <div class="header-text">
+                <p>Scribbles</p>
+                <h1>
+                    Unlock the power of words: Your go-to resource for expert
+                    writing, translation, and communication solutions.
+                </h1>
+            </div>
+        </div>
+
+        <!-------------------------------------about-------------------->
+
+        <div id="about">
+            <div class="container about">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/about.jpg" alt="about-image" />
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Us</h1>
+                        <p>
+                            Scribbles is a dynamic company specializing in
+                            crafting standout resumes, captivating cover
+                            letters, Pokot translations, writing impressive
+                            business plans, and composing inspiring speeches.
+                            Contact us and we will deliver a masterpiece for
+                            you.
+                        </p>
+                        <div class="tab-titles">
+                            <p
+                                class="tab-links active-link"
+                                onclick="opentab('Education')"
+                            >
+                                Mission
+                            </p>
+                            <p
+                                class="tab-links"
+                                onclick="opentab('Experience')"
+                            >
+                                Why Us
+                            </p>
+                            <p class="tab-links" onclick="opentab('Skills')">
+                                Testimonials
+                            </p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Education">
+                            <ul>
+                                <li>
+                                    Our mission is to help you succeed by using
+                                    the power of words to unlock your full
+                                    potential. We strive to propel your career
+                                    and communication goals, so you can leave a
+                                    lasting impression in all your pursuits.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li>
+                                    <span>Experienced Expertise</span><br />
+                                    Our team consists of skilled writers who
+                                    specialize in crafting resumes, cover
+                                    letters, Pokot translations, business plans,
+                                    and speeches. We have the expertise and
+                                    attention to detail necessary to deliver
+                                    high-quality work tailored to your specific
+                                    requirements.
+                                </li>
+                                <li>
+                                    <span>Personalized Approach</span><br />
+                                    We appreciate that each individual and
+                                    business is unique. That's why we take the
+                                    time to listen and understand your goals,
+                                    allowing us to create customized piece that
+                                    effectively showcase your strengths and meet
+                                    your desired needs.
+                                </li>
+                                <li>
+                                    <span>Timely Delivery</span><br />
+                                    We acknowledge the importance of deadlines.
+                                    You can rely on us to provide prompt and
+                                    efficient service, delivering your completed
+                                    projects within agreed-upon timelines, so
+                                    you can stay on track and meet your goals.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Skills">
+                            <ul>
+                                <li>
+                                    <span>Jane Cherono</span><br />
+                                    <span class="fa fa-quote-left"></span>
+                                    I approached Scribbles for a speech that
+                                    would captivate my audience. They crafted an
+                                    inspiring and engaging speech that left a
+                                    exceptional impression. I received numerous
+                                    compliments after my speech.
+                                    <span class="fa fa-quote-right"></span>
+                                </li>
+                                <li>
+                                    <span>Oscar Njenga</span><br />
+                                    <span class="fa fa-quote-left"></span>
+                                    As a non-native speaker, I needed accurate
+                                    and culturally sensitive Pokot translations.
+                                    Scribbles delivered exceptional translations
+                                    that surpassed my expectations. Their
+                                    attention to detail is remarkable!
+                                    <span class="fa fa-quote-right"></span>
+                                </li>
+                                <li>
+                                    <span>Agnes Nanjala</span><br />
+                                    <span class="fa fa-quote-left"></span>
+                                    Scribbles transformed my outdated resume
+                                    into a powerful document that perfectly
+                                    showcased my skills and experience. Thanks
+                                    to their expertise, I landed my dream job!
+                                    <span class="fa fa-quote-right"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------Services------------------------->
+
+        <div id="service">
+            <div class="box about">
+                <h1 class="my-project">Our Services</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/resume.jpg" alt="" />
+                        <div class="layer">
+                            <h3>Resume writing</h3>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/speech.jpg" alt="" />
+                        <div class="layer">
+                            <h3>Speech Writing</h3>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/cover.jpg" alt="" />
+                        <div class="layer">
+                            <h3>Cover Letters</h3>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/pokot.jpg" alt="" />
+                        <div class="layer">
+                            <h3>Pokot Translation</h3>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/business_plan.jpg" alt="" />
+                        <div class="layer">
+                            <h3>Business Plan</h3>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/business.jpg" alt="" />
+                        <div class="layer">
+                            <h3>Business Proposal</h3>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/essay.jpeg" alt="" />
+                        <div class="layer">
+                            <h3>Essay Editing</h3>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/content.jpg" alt="" />
+                        <div class="layer">
+                            <h3>Content Writing</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------Contact------------------------------>
+
+        <div id="contact">
+            <div class="box contact">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact</h1>
+                        <p>
+                            <a
+                                href="mailto:santanana588@gmail.com"
+                                class="contact-icons"
+                                ><i class="fas fa-paper-plane"></i
+                            ></a>
+                            cheptothellen@gmail.com
+                        </p>
+                        <p>
+                            <a href="tel:+254732479006" class="contact-icons">
+                                <i class="fas fa-mobile-alt"></i>
+                            </a>
+                            +254732479006
+                        </p>
+
+                        <p>
+                            <a href="tel:+254717234736" class="contact-icons">
+                                <i class="fas fa-mobile-alt"></i>
+                            </a>
+                            +254717234736
+                        </p>
+
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-instagram"></i> </a>
+                            <a href="#"><i class="fab fa-twitter"></i> </a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i> </a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form
+                            action="https://formsubmit.co/0837adb8119551f1be5e302be4984d4a"
+                            method="POST"
+                        >
+                            <input
+                                type="text"
+                                name="Name"
+                                id="name"
+                                placeholder="Name"
+                                required
+                            />
+                            <input
+                                type="email"
+                                name="Email"
+                                id="email"
+                                placeholder="Email"
+                                required
+                            />
+                            <textarea
+                                name="Message"
+                                id="message"
+                                rows="6"
+                                placeholder="Message"
+                                required
+                            ></textarea>
+                            <button type="submit" class="button-btn2">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Scribbles</p>
+        </div>
+        <script>
+            var tabLinks = document.getElementsByClassName('tab-links');
+            var tabContents = document.getElementsByClassName('tab-contents');
+
+            function opentab(tabname) {
+                for (tabLink of tabLinks) {
+                    tabLink.classList.remove('active-link');
+                }
+                for (tabContent of tabContents) {
+                    tabContent.classList.remove('active-tab');
+                }
+                event.currentTarget.classList.add('active-link');
+                document.getElementById(tabname).classList.add('active-tab');
+            }
+        </script>
+
+        <script>
+            var sidemnu = document.getElementById('sideMenu');
+
+            function openMenu() {
+                sidemnu.style.right = '0';
+            }
+            function closeMenu() {
+                sidemnu.style.right = '-200px';
+            }
+        </script>
+    </body>
+</html>
