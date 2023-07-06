@@ -272,6 +272,26 @@ nav ul li a:hover::after {
     transform: scale(1.1);
 }
 
+.payment h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: brown;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.payment-box {
+    background-image: url(images/mpesa.jpg);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
 /*-------------------Contact--------------*/
 .box.contact {
     background-color: #ffdab9;
@@ -312,17 +332,6 @@ nav ul li a:hover::after {
     transform: translateY(-5px);
 }
 
-.contact-mpesa a {
-    color: green;
-    margin-right: 15px;
-    text-decoration: none;
-    display: inline-block;
-}
-
-.contact-mpesa span {
-    color: red;
-    font-size: 20px;
-}
 .contact-icons {
     text-decoration: none;
     font-size: 30px;
@@ -436,7 +445,7 @@ nav .fas {
     }
 
     .header-text h1 {
-        font-size: 20px;
+        font-size: 24px;
         text-align: left;
         margin-top: 20%;
     }
@@ -514,7 +523,7 @@ nav .fas {
     }
 
     .header-text p {
-        font-size: 24px;
+        font-size: 28px;
         margin-top: 40%;
     }
 
