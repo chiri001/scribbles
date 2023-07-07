@@ -346,6 +346,19 @@ nav ul li a:hover::after {
     transform: translateY(-5px);
 }
 
+.FAQ {
+    text-decoration: underline;
+    margin-right: 15px;
+    color: brown;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.FAQ:hover {
+    color: #7851a9;
+    transform: translateY(-5px);
+}
+
 .button-btn2 {
     background-color: brown;
     color: white;
@@ -440,7 +453,7 @@ nav .fas {
     }
 
     .header-text p {
-        font-size: 30px;
+        font-size: 35px;
         margin-top: 30%;
     }
 
@@ -523,7 +536,6 @@ nav .fas {
     }
 
     .header-text p {
-        font-size: 28px;
         margin-top: 40%;
     }
 
